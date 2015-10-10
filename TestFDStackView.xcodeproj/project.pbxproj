@@ -12,6 +12,15 @@
 		3D1DBE721BC8C3650039F790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DBE701BC8C3650039F790 /* Main.storyboard */; };
 		3D1DBE741BC8C3650039F790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DBE731BC8C3650039F790 /* Assets.xcassets */; };
 		3D1DBE771BC8C3650039F790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DBE751BC8C3650039F790 /* LaunchScreen.storyboard */; };
+		3D1DBE8F1BC8C37A0039F790 /* FDGapLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE801BC8C37A0039F790 /* FDGapLayoutGuide.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE901BC8C37A0039F790 /* FDLayoutSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE821BC8C37A0039F790 /* FDLayoutSpacer.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE911BC8C37A0039F790 /* FDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE841BC8C37A0039F790 /* FDStackView.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE921BC8C37A0039F790 /* FDStackViewAlignmentLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE861BC8C37A0039F790 /* FDStackViewAlignmentLayoutArrangement.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE931BC8C37A0039F790 /* FDStackViewDistributionLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE881BC8C37A0039F790 /* FDStackViewDistributionLayoutArrangement.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE941BC8C37A0039F790 /* FDStackViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE8A1BC8C37A0039F790 /* FDStackViewExtensions.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE951BC8C37A0039F790 /* FDStackViewLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE8C1BC8C37A0039F790 /* FDStackViewLayoutArrangement.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE961BC8C37A0039F790 /* FDTransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DBE8E1BC8C37A0039F790 /* FDTransformLayer.m */; settings = {ASSET_TAGS = (); }; };
+		3D1DBE9C1BC8C41D0039F790 /* NestStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DBE9B1BC8C41D0039F790 /* NestStackView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,23 @@
 		3D1DBE731BC8C3650039F790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1DBE761BC8C3650039F790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1DBE781BC8C3650039F790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1DBE7F1BC8C37A0039F790 /* FDGapLayoutGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGapLayoutGuide.h; sourceTree = "<group>"; };
+		3D1DBE801BC8C37A0039F790 /* FDGapLayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGapLayoutGuide.m; sourceTree = "<group>"; };
+		3D1DBE811BC8C37A0039F790 /* FDLayoutSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLayoutSpacer.h; sourceTree = "<group>"; };
+		3D1DBE821BC8C37A0039F790 /* FDLayoutSpacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDLayoutSpacer.m; sourceTree = "<group>"; };
+		3D1DBE831BC8C37A0039F790 /* FDStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackView.h; sourceTree = "<group>"; };
+		3D1DBE841BC8C37A0039F790 /* FDStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackView.m; sourceTree = "<group>"; };
+		3D1DBE851BC8C37A0039F790 /* FDStackViewAlignmentLayoutArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewAlignmentLayoutArrangement.h; sourceTree = "<group>"; };
+		3D1DBE861BC8C37A0039F790 /* FDStackViewAlignmentLayoutArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewAlignmentLayoutArrangement.m; sourceTree = "<group>"; };
+		3D1DBE871BC8C37A0039F790 /* FDStackViewDistributionLayoutArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewDistributionLayoutArrangement.h; sourceTree = "<group>"; };
+		3D1DBE881BC8C37A0039F790 /* FDStackViewDistributionLayoutArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewDistributionLayoutArrangement.m; sourceTree = "<group>"; };
+		3D1DBE891BC8C37A0039F790 /* FDStackViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewExtensions.h; sourceTree = "<group>"; };
+		3D1DBE8A1BC8C37A0039F790 /* FDStackViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewExtensions.m; sourceTree = "<group>"; };
+		3D1DBE8B1BC8C37A0039F790 /* FDStackViewLayoutArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewLayoutArrangement.h; sourceTree = "<group>"; };
+		3D1DBE8C1BC8C37A0039F790 /* FDStackViewLayoutArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewLayoutArrangement.m; sourceTree = "<group>"; };
+		3D1DBE8D1BC8C37A0039F790 /* FDTransformLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTransformLayer.h; sourceTree = "<group>"; };
+		3D1DBE8E1BC8C37A0039F790 /* FDTransformLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTransformLayer.m; sourceTree = "<group>"; };
+		3D1DBE9B1BC8C41D0039F790 /* NestStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestStackView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,39 @@
 		3D1DBE6B1BC8C3650039F790 /* TestFDStackView */ = {
 			isa = PBXGroup;
 			children = (
+				3D1DBE7E1BC8C37A0039F790 /* FDStackView */,
 				3D1DBE6C1BC8C3650039F790 /* AppDelegate.swift */,
 				3D1DBE6E1BC8C3650039F790 /* ViewController.swift */,
+				3D1DBE9B1BC8C41D0039F790 /* NestStackView.xib */,
 				3D1DBE701BC8C3650039F790 /* Main.storyboard */,
 				3D1DBE731BC8C3650039F790 /* Assets.xcassets */,
 				3D1DBE751BC8C3650039F790 /* LaunchScreen.storyboard */,
 				3D1DBE781BC8C3650039F790 /* Info.plist */,
 			);
 			path = TestFDStackView;
+			sourceTree = "<group>";
+		};
+		3D1DBE7E1BC8C37A0039F790 /* FDStackView */ = {
+			isa = PBXGroup;
+			children = (
+				3D1DBE7F1BC8C37A0039F790 /* FDGapLayoutGuide.h */,
+				3D1DBE801BC8C37A0039F790 /* FDGapLayoutGuide.m */,
+				3D1DBE811BC8C37A0039F790 /* FDLayoutSpacer.h */,
+				3D1DBE821BC8C37A0039F790 /* FDLayoutSpacer.m */,
+				3D1DBE831BC8C37A0039F790 /* FDStackView.h */,
+				3D1DBE841BC8C37A0039F790 /* FDStackView.m */,
+				3D1DBE851BC8C37A0039F790 /* FDStackViewAlignmentLayoutArrangement.h */,
+				3D1DBE861BC8C37A0039F790 /* FDStackViewAlignmentLayoutArrangement.m */,
+				3D1DBE871BC8C37A0039F790 /* FDStackViewDistributionLayoutArrangement.h */,
+				3D1DBE881BC8C37A0039F790 /* FDStackViewDistributionLayoutArrangement.m */,
+				3D1DBE891BC8C37A0039F790 /* FDStackViewExtensions.h */,
+				3D1DBE8A1BC8C37A0039F790 /* FDStackViewExtensions.m */,
+				3D1DBE8B1BC8C37A0039F790 /* FDStackViewLayoutArrangement.h */,
+				3D1DBE8C1BC8C37A0039F790 /* FDStackViewLayoutArrangement.m */,
+				3D1DBE8D1BC8C37A0039F790 /* FDTransformLayer.h */,
+				3D1DBE8E1BC8C37A0039F790 /* FDTransformLayer.m */,
+			);
+			path = FDStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1DBE771BC8C3650039F790 /* LaunchScreen.storyboard in Resources */,
+				3D1DBE9C1BC8C41D0039F790 /* NestStackView.xib in Resources */,
 				3D1DBE741BC8C3650039F790 /* Assets.xcassets in Resources */,
 				3D1DBE721BC8C3650039F790 /* Main.storyboard in Resources */,
 			);
@@ -134,8 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1DBE8F1BC8C37A0039F790 /* FDGapLayoutGuide.m in Sources */,
+				3D1DBE901BC8C37A0039F790 /* FDLayoutSpacer.m in Sources */,
+				3D1DBE961BC8C37A0039F790 /* FDTransformLayer.m in Sources */,
+				3D1DBE931BC8C37A0039F790 /* FDStackViewDistributionLayoutArrangement.m in Sources */,
+				3D1DBE951BC8C37A0039F790 /* FDStackViewLayoutArrangement.m in Sources */,
 				3D1DBE6F1BC8C3650039F790 /* ViewController.swift in Sources */,
 				3D1DBE6D1BC8C3650039F790 /* AppDelegate.swift in Sources */,
+				3D1DBE941BC8C37A0039F790 /* FDStackViewExtensions.m in Sources */,
+				3D1DBE921BC8C37A0039F790 /* FDStackViewAlignmentLayoutArrangement.m in Sources */,
+				3D1DBE911BC8C37A0039F790 /* FDStackView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +307,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestFDStackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aimy.TestFDStackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -258,9 +320,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestFDStackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aimy.TestFDStackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
